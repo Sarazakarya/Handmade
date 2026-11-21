@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "readTimes": [
+      {
+        "id": "quick",
+        "label": "Quick (< 5 min)",
+        "min": 0,
+        "max": 4
+      },
+      {
+        "id": "standard",
+        "label": "Standard (5 – 8 min)",
+        "min": 5,
+        "max": 8
+      },
+      {
+        "id": "deep",
+        "label": "Deep Dive (9+ min)",
+        "min": 9,
+        "max": null
+      }
+    ]
+  },
+  "categories": [
+    {
+      "slug": "behind-the-stitches",
+      "name": "Behind The Stitches"
+    },
+    {
+      "slug": "crochet-guides",
+      "name": "Crochet Guides"
+    },
+    {
+      "slug": "cozy-living",
+      "name": "Cozy Living"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "slug": "art-of-mindful-stitches",
+      "title": "The Art of Mindful Stitches: Why Crochet is the Antidote to Digital Overload",
+      "excerpt": "In a world of constant notifications and screens, the rhythmic cadence of loop, yarn over, and pull through offers a gentle reset for a busy mind.",
+      "content": [
+        "In a world of constant notifications and screens, the rhythmic cadence of loop, yarn over, and pull through offers a gentle reset for a busy mind.",
+        "Crochet gives your hands something to do and your thoughts somewhere to rest. A few rounds each evening can become a small ritual that slows the day down."
+      ],
+      "category": "behind-the-stitches",
+      "readTime": 7,
+      "date": "2026-08-06",
+      "commentsCount": 31,
+      "views": 1840,
+      "author": {
+        "name": "Aanya Verma",
+        "role": "Founder & Lead Crocheter",
+        "avatar": null
+      },
+      "image": "/images/blog/art-of-mindful-stitches.webp",
+      "tags": [
+        "mindfulness",
+        "wellness",
+        "slow living"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "mastering-amigurumi",
+      "title": "Mastering Amigurumi: Perfect Tension, Clean Decreases & The Invisible Join",
+      "excerpt": "Unlock the secrets of adorable handmade plushies! Discover how to weave seamless shapes, keep your stitches tight, and finish like a pro.",
+      "content": [
+        "Great amigurumi starts with tight, even stitches. Use a hook one or two sizes smaller than the yarn label suggests so the stuffing never peeks through.",
+        "For clean shaping, work invisible decreases through the front loops only, and finish with an invisible join so the last round blends into the first."
+      ],
+      "category": "crochet-guides",
+      "readTime": 8,
+      "date": "2026-08-14",
+      "commentsCount": 24,
+      "views": 2310,
+      "author": {
+        "name": "Rhea Sharma",
+        "role": "Pattern Designer",
+        "avatar": null
+      },
+      "image": "/images/blog/mastering-amigurumi.webp",
+      "tags": [
+        "amigurumi",
+        "tutorial",
+        "techniques"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "handmade-crochet-gifts",
+      "title": "Thoughtful & Heartfelt: 10 Handmade Crochet Gifts for Every Occasion",
+      "excerpt": "Never-withering sunflower stems, custom initial keychains, and snug baby booties: our favourite crochet gifts that say more than a store-bought card.",
+      "content": [
+        "A handmade gift carries hours of care. Flower bouquets never wilt, initial keychains feel personal, and tiny booties become keepsakes.",
+        "Pick something that fits the person: a bouquet for a birthday, a keychain for a new job, and soft booties for a new baby."
+      ],
+      "category": "cozy-living",
+      "readTime": 5,
+      "date": "2026-07-22",
+      "commentsCount": 22,
+      "views": 1560,
+      "author": {
+        "name": "Rhea Sharma",
+        "role": "Pattern Designer",
+        "avatar": null
+      },
+      "image": "/images/blog/handmade-crochet-gifts.webp",
+      "tags": [
+        "gifts",
+        "flowers",
+        "keepsakes"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "crocheting-for-little-ones",
+      "title": "Crocheting for Little Ones: Safety Guidelines, Hypoallergenic Fibers & Beyond",
+      "excerpt": "Discover the best certified baby-safe yarns, secure seam construction, and breathable stitches that keep tiny skin comfortable and safe.",
+      "content": [
+        "Babies need soft, breathable, washable yarn. Look for certified cotton or hypoallergenic blends and avoid anything shedding or scratchy.",
+        "Keep stitches snug, weave in ends securely, and skip small detachable parts so every piece is safe for little hands and mouths."
+      ],
+      "category": "crochet-guides",
+      "readTime": 7,
+      "date": "2026-07-08",
+      "commentsCount": 20,
+      "views": 1275,
+      "author": {
+        "name": "Aanya Verma",
+        "role": "Founder & Lead Crocheter",
+        "avatar": null
+      },
+      "image": "/images/blog/crocheting-for-little-ones.webp",
+      "tags": [
+        "baby",
+        "safety",
+        "yarn"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "choosing-the-right-yarn",
+      "title": "Choosing the Right Yarn: A Friendly Guide to Cotton, Acrylic & Chenille",
+      "excerpt": "Not all yarn behaves the same. Learn which fibre suits plushies, home decor and wearables, and how weight and texture change the final look.",
+      "content": [
+        "Cotton is crisp and durable, great for doilies and coasters. Acrylic is light and budget friendly, and chenille makes velvety, huggable toys.",
+        "Match the fibre to the finished piece, and always make a small swatch before you commit to a whole project."
+      ],
+      "category": "crochet-guides",
+      "readTime": 6,
+      "date": "2026-06-25",
+      "commentsCount": 17,
+      "views": 980,
+      "author": {
+        "name": "Rhea Sharma",
+        "role": "Pattern Designer",
+        "avatar": null
+      },
+      "image": "/images/blog/choosing-the-right-yarn.webp",
+      "tags": [
+        "yarn",
+        "materials",
+        "beginners"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "a-day-in-the-studio",
+      "title": "Meet the Maker: A Day in the CozyLoops Studio",
+      "excerpt": "From the first cup of tea to the final stitch, take a peek at how every CozyLoops creation is planned, crocheted and packed with love.",
+      "content": [
+        "Mornings start with tea, sketches and a look at the order list. Each piece is crocheted by hand, one loop at a time.",
+        "Before anything ships it is checked, steamed and wrapped with a handwritten thank-you note."
+      ],
+      "category": "behind-the-stitches",
+      "readTime": 4,
+      "date": "2026-06-10",
+      "commentsCount": 13,
+      "views": 720,
+      "author": {
+        "name": "Meera Kapoor",
+        "role": "Studio Storyteller",
+        "avatar": null
+      },
+      "image": "/images/blog/a-day-in-the-studio.webp",
+      "tags": [
+        "studio",
+        "behind the scenes",
+        "packaging"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "cozy-corners-with-crochet",
+      "title": "Styling Handmade Decor: Cozy Corners with Crochet Doilies and Blooms",
+      "excerpt": "Turn any shelf, table or windowsill into a warm little corner using crochet doilies, flower stems and soft textures.",
+      "content": [
+        "Start with a statement piece, like a bold doily under a vase, then layer softer textures around it.",
+        "Repeat one colour across two or three items, and leave space between them so each handmade detail can shine."
+      ],
+      "category": "cozy-living",
+      "readTime": 5,
+      "date": "2026-05-30",
+      "commentsCount": 15,
+      "views": 860,
+      "author": {
+        "name": "Meera Kapoor",
+        "role": "Studio Storyteller",
+        "avatar": null
+      },
+      "image": "/images/blog/cozy-corners-with-crochet.webp",
+      "tags": [
+        "decor",
+        "styling",
+        "home"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "caring-for-your-crochet",
+      "title": "Caring for Your Crochet: Washing, Storing & Keeping It Soft for Years",
+      "excerpt": "A little care goes a long way. Learn how to wash, dry and store your handmade pieces so they stay soft, shaped and beautiful.",
+      "content": [
+        "Hand wash in cool water with a gentle soap, press out the water without wringing, and dry flat away from direct sun.",
+        "Store pieces in a breathable cotton bag, never a sealed plastic one, and refresh them with a light steam before gifting."
+      ],
+      "category": "cozy-living",
+      "readTime": 9,
+      "date": "2026-05-12",
+      "commentsCount": 11,
+      "views": 640,
+      "author": {
+        "name": "Aanya Verma",
+        "role": "Founder & Lead Crocheter",
+        "avatar": null
+      },
+      "image": "/images/blog/caring-for-your-crochet.webp",
+      "tags": [
+        "care",
+        "washing",
+        "storage"
+      ]
+    }
+  ]
+}

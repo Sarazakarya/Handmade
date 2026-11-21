@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "currency": "INR",
+    "priceRanges": [
+      {
+        "id": "under-200",
+        "label": "Under 200",
+        "min": 0,
+        "max": 200
+      },
+      {
+        "id": "200-400",
+        "label": "200 – 400",
+        "min": 200,
+        "max": 400
+      },
+      {
+        "id": "400-600",
+        "label": "400 – 600",
+        "min": 400,
+        "max": 600
+      },
+      {
+        "id": "over-600",
+        "label": "Over 600",
+        "min": 600,
+        "max": null
+      }
+    ],
+    "currencySymbol": "₹"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "decor-gifts",
+      "name": "Decor & Gifts",
+      "icon": "vase",
+      "description": "Flowers, bouquets and little gifts that never wilt.",
+      "image": "/images/categories/decor-gifts.webp"
+    },
+    {
+      "id": 2,
+      "slug": "pet-animal",
+      "name": "Pet & Animal",
+      "icon": "paw",
+      "description": "Cuddly crochet animals and amigurumi friends.",
+      "image": "/images/categories/pet-animal.webp"
+    },
+    {
+      "id": 3,
+      "slug": "home-living",
+      "name": "Home & Living",
+      "icon": "home",
+      "description": "Doilies and handmade pieces for a cozy home.",
+      "image": "/images/categories/home-living.webp"
+    },
+    {
+      "id": 4,
+      "slug": "kids-baby",
+      "name": "Kids & Baby",
+      "icon": "baby",
+      "description": "Soft, gentle crochet for little ones.",
+      "image": "/images/categories/kids-baby.webp"
+    },
+    {
+      "id": 5,
+      "slug": "personalized",
+      "name": "Personalized",
+      "icon": "sparkles",
+      "description": "Letters and keepsakes made just for you.",
+      "image": "/images/categories/personalized.webp"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "coral-baby-socks",
+      "name": "Coral Baby Socks",
+      "categoryId": 4,
+      "category": "kids-baby",
+      "price": 180,
+      "oldPrice": null,
+      "badge": "Bestseller",
+      "rating": 4.9,
+      "reviewCount": 128,
+      "tags": [
+        "baby",
+        "socks",
+        "newborn",
+        "gift"
+      ],
+      "description": "Ultra-soft crochet baby socks in warm coral cotton yarn. Gentle on delicate skin and perfect as a newborn gift.",
+      "image": "/images/products/coral-baby-socks.webp",
+      "images": [
+        "/images/products/coral-baby-socks.webp"
+      ],
+      "inStock": true,
+      "stock": 24,
+      "featuredOrder": 1,
+      "createdAt": "2026-09-02",
+      "material": "100% Soft Cotton Yarn",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 2,
+      "slug": "sunflower-tulip-bouquet",
+      "name": "Radiant Sunshine Sunflower Stem",
+      "categoryId": 1,
+      "category": "decor-gifts",
+      "price": 399,
+      "oldPrice": null,
+      "badge": "Top Rated",
+      "rating": 5.0,
+      "reviewCount": 74,
+      "tags": [
+        "flowers",
+        "bouquet",
+        "sunflower",
+        "tulip",
+        "gift"
+      ],
+      "description": "A forever-blooming bouquet of crochet sunflower, tulips and daisy on wire stems. Ideal for birthdays, graduations and home decor.",
+      "image": "/images/products/sunflower-tulip-bouquet.webp",
+      "images": [
+        "/images/products/sunflower-tulip-bouquet.webp"
+      ],
+      "inStock": true,
+      "stock": 15,
+      "featuredOrder": 2,
+      "createdAt": "2026-08-20",
+      "material": "100% Cotton Yarn & Flexible Stem",
+      "popular": true,
+      "popularOrder": 2
+    },
+    {
+      "id": 3,
+      "slug": "chick-flower-keychain",
+      "name": "Chick Flower Keychain",
+      "categoryId": 2,
+      "category": "pet-animal",
+      "price": 160,
+      "oldPrice": null,
+      "badge": "Bestseller",
+      "rating": 4.8,
+      "reviewCount": 176,
+      "tags": [
+        "keychain",
+        "chick",
+        "amigurumi",
+        "bag charm"
+      ],
+      "description": "An adorable crochet chick wearing a little flower crown and bow. Clips onto bags, keys and backpacks.",
+      "image": "/images/products/chick-flower-keychain.webp",
+      "images": [
+        "/images/products/chick-flower-keychain.webp"
+      ],
+      "inStock": true,
+      "stock": 40,
+      "featuredOrder": 3,
+      "createdAt": "2026-09-10",
+      "material": "Chenille Velvet Soft Yarn",
+      "popular": true,
+      "popularOrder": 5
+    },
+    {
+      "id": 4,
+      "slug": "peacock-doily-navy",
+      "name": "Peacock Doily – Navy",
+      "categoryId": 3,
+      "category": "home-living",
+      "price": 620,
+      "oldPrice": 700,
+      "badge": "Trending",
+      "rating": 4.9,
+      "reviewCount": 93,
+      "tags": [
+        "doily",
+        "peacock",
+        "table",
+        "home decor"
+      ],
+      "description": "A statement round doily with a deep navy centre and a vivid peacock-feather border. Hand-crocheted, perfect under a vase or as a table centrepiece.",
+      "image": "/images/products/peacock-doily-navy.webp",
+      "images": [
+        "/images/products/peacock-doily-navy.webp"
+      ],
+      "inStock": true,
+      "stock": 8,
+      "featuredOrder": 4,
+      "createdAt": "2026-10-01",
+      "material": "100% Pure Natural Cotton",
+      "popular": true,
+      "popularOrder": 7
+    },
+    {
+      "id": 5,
+      "slug": "bear-baby-hat",
+      "name": "Cozy Bear Ears Baby Beanie",
+      "categoryId": 4,
+      "category": "kids-baby",
+      "price": 349,
+      "oldPrice": null,
+      "badge": "New Arrival",
+      "rating": 4.9,
+      "reviewCount": 42,
+      "tags": [
+        "baby",
+        "hat",
+        "bear",
+        "newborn"
+      ],
+      "description": "A cozy beanie with little bear ears and a teddy face patch, finished with a soft sage ribbed brim.",
+      "image": "/images/products/bear-baby-hat.webp",
+      "images": [
+        "/images/products/bear-baby-hat.webp"
+      ],
+      "inStock": true,
+      "stock": 18,
+      "featuredOrder": 5,
+      "createdAt": "2026-10-18",
+      "material": "Ultra-Soft Hypoallergenic Yarn",
+      "popular": true,
+      "popularOrder": 4
+    },
+    {
+      "id": 6,
+      "slug": "pink-letter-s",
+      "name": "Pink Crochet Letter S",
+      "categoryId": 5,
+      "category": "personalized",
+      "price": 300,
+      "oldPrice": null,
+      "badge": null,
+      "rating": 4.7,
+      "reviewCount": 52,
+      "tags": [
+        "letter",
+        "initial",
+        "nursery",
+        "personalized"
+      ],
+      "description": "A plush crochet letter in blush pink. Ask for any letter and colour: great for nurseries, shelves and gifts.",
+      "image": "/images/products/pink-letter-s.webp",
+      "images": [
+        "/images/products/pink-letter-s.webp"
+      ],
+      "inStock": true,
+      "stock": 30,
+      "featuredOrder": 6,
+      "createdAt": "2026-07-15",
+      "material": "Plush Milk Cotton Yarn",
+      "popular": true,
+      "popularOrder": 8
+    },
+    {
+      "id": 7,
+      "slug": "letter-r-keychain",
+      "name": "Letter R Keychain",
+      "categoryId": 5,
+      "category": "personalized",
+      "price": 140,
+      "oldPrice": null,
+      "badge": "Top Rated",
+      "rating": 4.9,
+      "reviewCount": 88,
+      "tags": [
+        "letter",
+        "initial",
+        "keychain",
+        "personalized",
+        "gift"
+      ],
+      "description": "A dainty crochet initial keychain with a gold clasp. Made to order in any letter.",
+      "image": "/images/products/letter-r-keychain.webp",
+      "images": [
+        "/images/products/letter-r-keychain.webp"
+      ],
+      "inStock": true,
+      "stock": 50,
+      "featuredOrder": 7,
+      "createdAt": "2026-08-05",
+      "material": "Cotton Yarn & Gold Clasp",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 8,
+      "slug": "bee-amigurumi",
+      "name": "Buzzy Bumblebee Crochet Plushie",
+      "categoryId": 2,
+      "category": "pet-animal",
+      "price": 299,
+      "oldPrice": null,
+      "badge": "Trending",
+      "rating": 4.8,
+      "reviewCount": 39,
+      "tags": [
+        "bee",
+        "amigurumi",
+        "toy",
+        "gift"
+      ],
+      "description": "A smiling crochet bumblebee with rosy cheeks and tiny wings, stuffed with hypoallergenic filling.",
+      "image": "/images/products/bee-amigurumi.webp",
+      "images": [
+        "/images/products/bee-amigurumi.webp"
+      ],
+      "inStock": true,
+      "stock": 20,
+      "featuredOrder": 8,
+      "createdAt": "2026-10-05",
+      "material": "Chenille Velvet Soft Yarn",
+      "popular": true,
+      "popularOrder": 1
+    },
+    {
+      "id": 9,
+      "slug": "frog-amigurumi",
+      "name": "Chubby Frog Amigurumi",
+      "categoryId": 2,
+      "category": "pet-animal",
+      "price": 270,
+      "oldPrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 74,
+      "tags": [
+        "frog",
+        "amigurumi",
+        "toy"
+      ],
+      "description": "A big-eyed, chubby green frog that is as soft to hug as it is cute to display.",
+      "image": "/images/products/frog-amigurumi.webp",
+      "images": [
+        "/images/products/frog-amigurumi.webp"
+      ],
+      "inStock": true,
+      "stock": 16,
+      "featuredOrder": 9,
+      "createdAt": "2026-09-22",
+      "material": "Chenille Velvet Soft Yarn",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 10,
+      "slug": "panda-amigurumi",
+      "name": "Baby Panda Amigurumi",
+      "categoryId": 2,
+      "category": "pet-animal",
+      "price": 320,
+      "oldPrice": 350,
+      "badge": "Bestseller",
+      "rating": 5.0,
+      "reviewCount": 189,
+      "tags": [
+        "panda",
+        "amigurumi",
+        "toy",
+        "gift"
+      ],
+      "description": "A sweet crochet panda with glossy black eyes: a bestselling cuddle buddy for kids and collectors.",
+      "image": "/images/products/panda-amigurumi.webp",
+      "images": [
+        "/images/products/panda-amigurumi.webp"
+      ],
+      "inStock": true,
+      "stock": 12,
+      "featuredOrder": 10,
+      "createdAt": "2026-06-30",
+      "material": "Chenille Velvet Soft Yarn",
+      "popular": true,
+      "popularOrder": 6
+    },
+    {
+      "id": 11,
+      "slug": "penguin-amigurumi",
+      "name": "Little Penguin Amigurumi",
+      "categoryId": 2,
+      "category": "pet-animal",
+      "price": 290,
+      "oldPrice": null,
+      "badge": null,
+      "rating": 4.8,
+      "reviewCount": 59,
+      "tags": [
+        "penguin",
+        "amigurumi",
+        "toy"
+      ],
+      "description": "A tiny crochet penguin with a golden beak. Sits happily on any shelf or desk.",
+      "image": "/images/products/penguin-amigurumi.webp",
+      "images": [
+        "/images/products/penguin-amigurumi.webp"
+      ],
+      "inStock": true,
+      "stock": 14,
+      "featuredOrder": 11,
+      "createdAt": "2026-07-28",
+      "material": "Chenille Velvet Soft Yarn",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 12,
+      "slug": "dogwood-flower",
+      "name": "Dogwood Crochet Flower",
+      "categoryId": 1,
+      "category": "decor-gifts",
+      "price": 90,
+      "oldPrice": null,
+      "badge": null,
+      "rating": 4.7,
+      "reviewCount": 45,
+      "tags": [
+        "flower",
+        "single stem",
+        "decor",
+        "gift"
+      ],
+      "description": "A single white dogwood-style bloom with a teal leaf, ready to drop into any vase.",
+      "image": "/images/products/dogwood-flower.webp",
+      "images": [
+        "/images/products/dogwood-flower.webp"
+      ],
+      "inStock": true,
+      "stock": 60,
+      "featuredOrder": 12,
+      "createdAt": "2026-05-18",
+      "material": "Cotton Yarn & Flexible Stem",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 13,
+      "slug": "pink-bloom-bouquet",
+      "name": "Pink Bloom Bouquet",
+      "categoryId": 1,
+      "category": "decor-gifts",
+      "price": 380,
+      "oldPrice": null,
+      "badge": "New Arrival",
+      "rating": 4.8,
+      "reviewCount": 38,
+      "tags": [
+        "flowers",
+        "bouquet",
+        "pink",
+        "gift"
+      ],
+      "description": "A lush bunch of bright pink crochet blossoms. Cheerful, long-lasting, and no watering required.",
+      "image": "/images/products/pink-bloom-bouquet.webp",
+      "images": [
+        "/images/products/pink-bloom-bouquet.webp"
+      ],
+      "inStock": true,
+      "stock": 10,
+      "featuredOrder": 13,
+      "createdAt": "2026-10-25",
+      "material": "Cotton Yarn & Flexible Stem",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 14,
+      "slug": "puff-flower-keychain",
+      "name": "Puff Flower Keychain",
+      "categoryId": 1,
+      "category": "decor-gifts",
+      "price": 120,
+      "oldPrice": null,
+      "badge": null,
+      "rating": 4.6,
+      "reviewCount": 63,
+      "tags": [
+        "flower",
+        "keychain",
+        "bag charm",
+        "gift"
+      ],
+      "description": "A puffy peach crochet flower with a golden centre, attached to a sturdy key ring.",
+      "image": "/images/products/puff-flower-keychain.webp",
+      "images": [
+        "/images/products/puff-flower-keychain.webp"
+      ],
+      "inStock": true,
+      "stock": 35,
+      "featuredOrder": 14,
+      "createdAt": "2026-06-12",
+      "material": "Soft Yarn & Metal Key Ring",
+      "popular": false,
+      "popularOrder": null
+    },
+    {
+      "id": 15,
+      "slug": "peacock-doily-cream",
+      "name": "Vintage Botanical Coaster Set",
+      "categoryId": 3,
+      "category": "home-living",
+      "price": 599,
+      "oldPrice": null,
+      "badge": "Handmade",
+      "rating": 4.8,
+      "reviewCount": 23,
+      "tags": [
+        "doily",
+        "peacock",
+        "table",
+        "home decor"
+      ],
+      "description": "The same peacock-feather border on a soft cream base: a warmer, subtler look for neutral interiors.",
+      "image": "/images/products/peacock-doily-cream.webp",
+      "images": [
+        "/images/products/peacock-doily-cream.webp"
+      ],
+      "inStock": true,
+      "stock": 9,
+      "featuredOrder": 15,
+      "createdAt": "2026-08-28",
+      "material": "100% Pure Natural Cotton",
+      "popular": true,
+      "popularOrder": 3
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-11"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "author": "Omar S.",
+      "rating": 4,
+      "comment": "Nice piece, slightly smaller than I expected but still lovely.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": 6,
+      "productId": 2,
+      "author": "Hassan M.",
+      "rating": 5,
+      "comment": "Gift was a hit, everyone asked where it's from.",
+      "createdAt": "2026-10-31"
+    },
+    {
+      "id": 7,
+      "productId": 3,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 8,
+      "productId": 3,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": 9,
+      "productId": 3,
+      "author": "Omar S.",
+      "rating": 4,
+      "comment": "Nice piece, slightly smaller than I expected but still lovely.",
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 10,
+      "productId": 4,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-11"
+    },
+    {
+      "id": 11,
+      "productId": 4,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": 12,
+      "productId": 5,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": 13,
+      "productId": 5,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": 14,
+      "productId": 6,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-31"
+    },
+    {
+      "id": 15,
+      "productId": 6,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 16,
+      "productId": 7,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": 17,
+      "productId": 7,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 18,
+      "productId": 8,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-11"
+    },
+    {
+      "id": 19,
+      "productId": 8,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": 20,
+      "productId": 8,
+      "author": "Hassan M.",
+      "rating": 5,
+      "comment": "Gift was a hit, everyone asked where it's from.",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": 21,
+      "productId": 9,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": 22,
+      "productId": 9,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-31"
+    },
+    {
+      "id": 23,
+      "productId": 10,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 24,
+      "productId": 10,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": 25,
+      "productId": 10,
+      "author": "Hassan M.",
+      "rating": 5,
+      "comment": "Gift was a hit, everyone asked where it's from.",
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 26,
+      "productId": 11,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-11"
+    },
+    {
+      "id": 27,
+      "productId": 11,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": 28,
+      "productId": 12,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": 29,
+      "productId": 12,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": 30,
+      "productId": 13,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-31"
+    },
+    {
+      "id": 31,
+      "productId": 13,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-11-05"
+    },
+    {
+      "id": 32,
+      "productId": 14,
+      "author": "Mona K.",
+      "rating": 5,
+      "comment": "Bought these for my niece, so soft and the colour is beautiful.",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": 33,
+      "productId": 14,
+      "author": "Nour A.",
+      "rating": 5,
+      "comment": "Exactly like the photos. Great finishing.",
+      "createdAt": "2026-10-06"
+    },
+    {
+      "id": 34,
+      "productId": 15,
+      "author": "Salma R.",
+      "rating": 4,
+      "comment": "Lovely quality, shipped quickly.",
+      "createdAt": "2026-10-11"
+    },
+    {
+      "id": 35,
+      "productId": 15,
+      "author": "Yara T.",
+      "rating": 5,
+      "comment": "Neat stitches and very cute. Would order again.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sara",
+      "lastName": "Ahmed",
+      "email": "sara@example.com",
+      "password": "123456"
+    }
+  ]
+}

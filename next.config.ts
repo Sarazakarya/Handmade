@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "dummyjson.com", pathname: "/image/**" },
+    ],
+  },
   /* config options here */
   experimental: {
     agentFeedback: true,

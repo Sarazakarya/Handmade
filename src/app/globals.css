@@ -1,0 +1,271 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: var(--cream);
+  --color-brand-pink: var(--brand-pink);
+  --color-brand-pink-foreground: var(--brand-pink-foreground);
+
+  --color-custom-gray: var(--custom-gray);
+  --color-custom-black: var(--custom-black);
+  --color-custom-brown: var(--custom-brown);
+  --color-custom-light-brown: var(--custom-brown);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* الحواف */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* -------------------------------------------------- */
+/* Design Tokens & Colors (Light Mode)                */
+/* -------------------------------------------------- */
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.331 0.051 54.2);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.331 0.051 54.2);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.331 0.051 54.2);
+
+  --primary: oklch(0.379 0.099 41);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.954 0.013 56.3);
+  --secondary-foreground: oklch(0.379 0.099 41);
+  --muted: oklch(0.954 0.013 56.3);
+  --muted-foreground: oklch(0.551 0.027 264.3);
+  --accent: oklch(0.954 0.013 56.3);
+  --accent-foreground: oklch(0.379 0.099 41);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.905 0.019 57.2);
+  --input: oklch(0.905 0.019 57.2);
+  --ring: oklch(0.753 0.137 12.4);
+
+  --chart-1: oklch(0.753 0.137 12.4);
+  --chart-2: oklch(0.379 0.099 41);
+  --chart-3: oklch(0.814 0.129 70.3);
+  --chart-4: oklch(0.331 0.051 54.2);
+  --chart-5: oklch(0.833 0.087 10.2);
+
+  --radius: 0.625rem;
+
+  --sidebar: oklch(0.972 0.009 78.3);
+  --sidebar-foreground: oklch(0.331 0.051 54.2);
+  --sidebar-primary: oklch(0.379 0.099 41);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.954 0.013 56.3);
+  --sidebar-accent-foreground: oklch(0.379 0.099 41);
+  --sidebar-border: oklch(0.905 0.019 57.2);
+  --sidebar-ring: oklch(0.753 0.137 12.4);
+
+  --cream: oklch(0.972 0.009 78.3);
+  --brand-pink: oklch(0.753 0.137 12.4);
+  --brand-pink-foreground: oklch(1 0 0);
+  --pink-color: #f88897;
+
+  /* الألوان الإضافية (رمادي، أسود، بني) */
+  --custom-gray: oklch(0.65 0.02 250);
+  --custom-black: oklch(0.15 0 0);
+  --custom-brown: oklch(0.4 0.08 55);
+  --custom-light-brown: #faf6f0;
+}
+
+/* -------------------------------------------------- */
+/* Design Tokens & Colors (Dark Mode)                 */
+/* -------------------------------------------------- */
+.dark {
+  --background: oklch(0.204 0.02 40.9);
+  --foreground: oklch(0.954 0.013 56.3);
+  --card: oklch(0.242 0.026 47.6);
+  --card-foreground: oklch(0.954 0.013 56.3);
+  --popover: oklch(0.242 0.026 47.6);
+  --popover-foreground: oklch(0.954 0.013 56.3);
+
+  --primary: oklch(0.753 0.137 12.4);
+  --primary-foreground: oklch(0.204 0.02 40.9);
+
+  --secondary: oklch(0.296 0.031 45);
+  --secondary-foreground: oklch(0.954 0.013 56.3);
+  --muted: oklch(0.296 0.031 45);
+  --muted-foreground: oklch(0.786 0.029 55.2);
+  --accent: oklch(0.296 0.031 45);
+  --accent-foreground: oklch(0.954 0.013 56.3);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.753 0.137 12.4);
+
+  --chart-1: oklch(0.753 0.137 12.4);
+  --chart-2: oklch(0.814 0.129 70.3);
+  --chart-3: oklch(0.833 0.087 10.2);
+  --chart-4: oklch(0.786 0.029 55.2);
+  --chart-5: oklch(0.379 0.099 41);
+
+  --sidebar: oklch(0.242 0.026 47.6);
+  --sidebar-foreground: oklch(0.954 0.013 56.3);
+  --sidebar-primary: oklch(0.753 0.137 12.4);
+  --sidebar-primary-foreground: oklch(0.204 0.02 40.9);
+  --sidebar-accent: oklch(0.296 0.031 45);
+  --sidebar-accent-foreground: oklch(0.954 0.013 56.3);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.753 0.137 12.4);
+
+  --cream: oklch(0.204 0.02 40.9);
+  --brand-pink: oklch(0.753 0.137 12.4);
+  --brand-pink-foreground: oklch(0.204 0.02 40.9);
+
+  --custom-gray: oklch(0.7 0.02 250);
+  --custom-black: oklch(0.95 0 0);
+  --custom-brown: oklch(0.55 0.08 55);
+  --custom-light-brown: #faf6f0;
+}
+
+/* -------------------------------------------------- */
+/* Base Layer                                         */
+/* -------------------------------------------------- */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+/* -------------------------------------------------- */
+/* Design System Utilities Layer                      */
+/* -------------------------------------------------- */
+@layer utilities {
+  /* ================= Brand & Colors ================= */
+
+  /* bg */
+  .cozy-bg-primary {
+    background-color: var(--primary);
+  }
+  .cozy-bg-cream {
+    background-color: var(--cream);
+  }
+  .cozy-bg-brand-pink {
+    background-color: var(--brand-pink);
+  }
+  .cozy-bg-gray {
+    background-color: var(--custom-gray);
+  }
+
+  .cozy-bg-black {
+    background-color: var(--custom-black);
+  }
+  .cozy-bg-brown {
+    background-color: var(--custom-brown);
+  }
+  .cozy-bg-light-brown {
+    background-color: var(--custom-light-brown);
+  }
+  /* Text */
+  .cozy-text-primary {
+    color: var(--primary);
+  }
+  .cozy-text-brand-pink {
+    color: var(--brand-pink);
+  }
+  .cozy-text-cream {
+    color: var(--cream);
+  }
+
+  .cozy-text-gray {
+    color: var(--custom-gray);
+  }
+
+  .cozy-text-black {
+    color: var(--custom-black);
+  }
+
+  .cozy-text-brown {
+    color: var(--custom-brown);
+  }
+
+  /* ================= Custom Utilities ================= */
+  .cozy-focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--ring);
+  }
+
+  /* ================= Layout Container ================= */
+  .cozy-container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .cozy-container {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .cozy-container {
+      padding-inline: 2rem;
+    }
+  }
+}
