@@ -1,11 +1,17 @@
+import { StaticImageData } from "next/image";
 
-export type BlogSort = "popular" | "newest" | "oldest" | "comments" | "read-asc";
+export type BlogSort =
+  | "popular"
+  | "newest"
+  | "oldest"
+  | "comments"
+  | "read-asc";
 export type BlogReadTime = "all" | "quick" | "standard" | "deep";
 
 export type BlogAuthor = {
   name: string;
   role: string;
-  avatar: string | null; 
+  avatar: string | null |StaticImageData;
 };
 
 export type BlogPost = {
@@ -13,15 +19,15 @@ export type BlogPost = {
   slug: string;
   title: string;
   excerpt: string;
-  content: string[]; 
+  content: string[];
   category: string;
   categoryName: string;
-  readTime: number; 
+  readTime: number;
   date: string;
   commentsCount: number;
   views: number;
   author: BlogAuthor;
-  image: string;
+  image: string | StaticImageData;
   tags: string[];
 };
 
@@ -38,7 +44,6 @@ export type BlogResponse = {
   hasNext: boolean;
   sort: BlogSort;
 };
-
 
 export type BlogReadTimeOption = {
   id: Exclude<BlogReadTime, "all">;
@@ -66,10 +71,9 @@ export type BlogFiltersResponse = {
   categories: BlogCategory[];
 };
 
-
 export type BlogParams = {
   search?: string;
-  category?: string; 
+  category?: string;
   readTime?: BlogReadTime;
   sort?: BlogSort;
   page?: number;
