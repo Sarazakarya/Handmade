@@ -3,7 +3,7 @@ import { Container } from "@/shared/components/atoms/Container";
 import { InputWithIcon } from "@/shared/components/molecule/InputWithIcon";
 import { SimpleSelect } from "@/shared/components/molecule/SimpleSelect";
 import { Search } from "lucide-react";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { useGetBlogFilters } from "../hooks/useGetBlogFilters";
 import { BlogFiltersState } from "../hooks/useGetBlogs";
 import { BlogReadTime, BlogSort } from "../Types/Blog";
@@ -78,4 +78,4 @@ const BlogFilters = ({ filters, setFilter, total }: Props) => {
   );
 };
 
-export default BlogFilters;
+export default memo(BlogFilters);

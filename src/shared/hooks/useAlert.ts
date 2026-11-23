@@ -1,24 +1,34 @@
 import Swal from "sweetalert2";
 
+const COLORS = {
+  success: { bg: "#faf6f0", bar: "#faf6f0" },
+  error: { bg: "#c0392b", bar: "#ffffff" },
+};
+
 export function useAlert() {
   const showAlert = (icon: "success" | "error", title: string) => {
+    const c = COLORS[icon];
+
     return Swal.fire({
-      icon,
+      toast: true,
+      position: "top-end",
       title,
-      confirmButtonText: "OK",
-      confirmButtonColor: "#f88897",
-      background: "#FFFCF7",
-      color: "#5C4033",
-      iconColor: "#8B6B4F",
-      buttonsStyling: true,
+      showConfirmButton: false,
+      timer: 2200,
+      timerProgressBar: true,
+      background: c.bg,
+      color: "brown-400",
       customClass: {
-        popup: "rounded-2xl",
-        confirmButton: "rounded-lg px-6 py-2",
+        popup: "rounded-2xl! px-5! py-3! shadow-2xl! text-[0.85rem]!",
+        title: "m-0! font-bold! tracking-wide!",
+        timerProgressBar: `bg-[${c.bar}]!`,
+      },
+      didOpen: (toast) => {
+        toast.addEventListener("mouseenter", Swal.stopTimer);
+        toast.addEventListener("mouseleave", Swal.resumeTimer);
       },
     });
   };
 
-  return {
-    showAlert,
-  };
+  return { showAlert };
 }

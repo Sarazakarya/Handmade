@@ -24,12 +24,15 @@ const BlogSectionContent = () => {
         total={data?.total ?? 0}
       />
 
-      <BlogCards
-        posts={data?.items ?? []}
-        isLoading={isLoading}
-        isError={isError}
-        refetch={refetch}
-      />
+      <Container>
+        {" "}
+        <BlogCards
+          posts={data?.items ?? []}
+          isLoading={isLoading}
+          isError={isError}
+          refetch={refetch}
+        />
+      </Container>
     </div>
   );
 };

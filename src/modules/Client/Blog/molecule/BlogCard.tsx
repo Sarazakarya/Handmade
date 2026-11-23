@@ -4,37 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock, MessageCircle } from "lucide-react";
 import { BlogPost } from "../Types/Blog";
-import {story} from "@/assets/images/Images"
+import { initalname } from "../utlils/utils";
 
-const MOCK_POST: BlogPost = {
-  id: 1,
-  slug: "art-of-mindful-stitches",
-  title:
-    "The Art of Mindful Stitches: Why Crochet is the Antidote to Digital Overload",
-  excerpt:
-    "In a world of constant notifications and screens, the rhythmic cadence of loop, yarn over, and pull through offers a gentle reset for a busy mind.",
-  content: [],
-  category: "behind-the-stitches",
-  categoryName: "Behind The Stitches",
-  readTime: 7,
-  date: "2026-08-06",
-  commentsCount: 31,
-  views: 1840,
-  author: {
-    name: "Aanya Verma",
-    role: "Founder & Lead Crocheter",
-    avatar: story,
-  },
-  image: story,
-  tags: ["mindfulness", "wellness"],
-};
+interface Props {
+  post: BlogPost;
+}
 
-type Props = { post?: BlogPost };
-
-const BlogCard = ({ post = MOCK_POST }: Props) => {
+const BlogCard = ({ post }: Props) => {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border bg-white transition-shadow hover:shadow-md">
-      {/* image */}
       <Link
         href={`/blog/${post.slug}`}
         className="relative block aspect-4/3 w-full overflow-hidden"
@@ -55,7 +33,6 @@ const BlogCard = ({ post = MOCK_POST }: Props) => {
         </span>
       </Link>
 
-      {/* body */}
       <div className="flex flex-col gap-3 p-5">
         <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span className="flex items-center gap-1.5">
@@ -91,11 +68,11 @@ const BlogCard = ({ post = MOCK_POST }: Props) => {
               />
             ) : (
               <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-secondary text-xs font-bold text-primary">
-                {post.author.name}
+                {initalname(post.author.name)}
               </span>
             )}
             <span className="truncate text-sm font-semibold">
-              {post.author.name}
+              {initalname(post.author.name)}
             </span>
           </div>
 

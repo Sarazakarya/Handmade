@@ -5,5 +5,5 @@ import { getBlog } from "../api/getBlog";
 export const useGetBlog = (params: BlogParams) =>
   useApiQuery<BlogResponse>({
     queryKey: ["blog", params],
-    queryFn: () => getBlog(params),
+    queryFn: () => getBlog(params ?? []),
   });

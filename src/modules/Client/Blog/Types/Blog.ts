@@ -11,7 +11,7 @@ export type BlogReadTime = "all" | "quick" | "standard" | "deep";
 export type BlogAuthor = {
   name: string;
   role: string;
-  avatar: string | null |StaticImageData;
+  avatar: string | null | StaticImageData;
 };
 
 export type BlogPost = {
@@ -78,4 +78,35 @@ export type BlogParams = {
   sort?: BlogSort;
   page?: number;
   limit?: number;
+};
+
+export type RelatedBlog = {
+  id: number;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string[];
+  category: string;
+  readTime: number;
+  date: string;
+  commentsCount: number;
+  views: number;
+  author: BlogAuthor;
+  image: string;
+  tags: string[];
+  categoryName: string;
+};
+
+export type BlogPostResponse = RelatedBlog & {
+  related: RelatedBlog[];
+};
+
+export type BreadcrumbLink = {
+  page: string;
+  href: string;
+};
+
+export type BlogItemHeaderProps = {
+  links: BreadcrumbLink[];
+  slug: string;
 };

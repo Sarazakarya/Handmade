@@ -90,6 +90,7 @@ import {
   Flower2,
   PawPrint,
   Shapes,
+  MessageCircle,
   Sparkles,
   HandCoins,
 } from "lucide-react";
@@ -186,4 +187,5 @@ export {
   PawPrint,
   Shapes,
   Sparkles,
+  MessageCircle,
 };

@@ -1,7 +1,8 @@
 "use client";
 import { useApiQuery } from "@/shared/hooks/useApiQuery";
-import { ShopCategory } from "../utils/ShopData";
+
 import { getShopCategories } from "../api/getCategories";
+import { ShopCategory } from "../types/shopTypes";
 
 export const useGetShopCategories = () =>
   useApiQuery<ShopCategory[]>({
