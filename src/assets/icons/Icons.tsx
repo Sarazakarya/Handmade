@@ -46,6 +46,8 @@ import {
   ClipboardList,
   SquarePlus,
   FolderOpen,
+  ReceiptText,
+  CreditCardMinus,
   Upload,
   Trash2,
   Phone,
@@ -96,6 +98,9 @@ import {
   MapPin,
   PenLine,
   Tag,
+  ShoppingBag,
+  UserRound,
+  ShieldCheck,
 } from "lucide-react";
 
 export {
@@ -166,6 +171,11 @@ export {
   UsersRound,
   MessageSquareText,
   CirclePlus,
+  ShoppingBag,
+  UserRound,
+  ShieldCheck,
+  ReceiptText,
+  CreditCardMinus,
   FaInstagram,
   FaFacebookF,
   FaPinterestP,

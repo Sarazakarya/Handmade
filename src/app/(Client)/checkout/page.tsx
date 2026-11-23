@@ -1,7 +1,8 @@
+import React from 'react'
 
 const page = () => {
   return (
-    <div>pages</div>
+    <div>page</div>
   )
 }
 
