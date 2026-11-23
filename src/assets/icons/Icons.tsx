@@ -93,12 +93,17 @@ import {
   MessageCircle,
   Sparkles,
   HandCoins,
+  MapPin,
+  PenLine,
+  Tag,
 } from "lucide-react";
 
 export {
   Sun,
   Moon,
   List,
+  PenLine,
+  Tag,
   AlignLeft,
   CircleMinus,
   ListMinus,
@@ -188,4 +193,5 @@ export {
   Shapes,
   Sparkles,
   MessageCircle,
+  MapPin,
 };

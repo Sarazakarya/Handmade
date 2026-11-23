@@ -1,10 +1,7 @@
+import ContactSection from "@/modules/Contact/Template/ContactSection";
 
 const page = () => {
-  return (
-    <div>
-      contact
-    </div>
-  )
-}
+  return <ContactSection />;
+};
 
-export default page
+export default page;
