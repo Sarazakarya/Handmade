@@ -1,6 +1,5 @@
 "use client";
 
-import type { ComponentType, ReactNode } from "react";
 import {
   Heart,
   Mail,
@@ -11,29 +10,10 @@ import {
   User,
 } from "@/assets/icons/Icons";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { InputWithIcon } from "@/shared/components/molecule/InputWithIcon";
+import { TextareaWithIcon } from "@/shared/components/molecule/TextareaWithIcon";
+
 import { useAlert } from "@/shared/hooks/useAlert";
-
-type IconType = ComponentType<{ className?: string }>;
-
-const INPUT_STYLE =
-  "rounded-2xl border bg-secondary/50 px-5 text-base text-primary shadow-none transition placeholder:text-muted-foreground focus-visible:border-primary focus-visible:bg-white focus-visible:ring-0";
-
-const Field = ({
-  children,
-  Icon,
-  className = "",
-}: {
-  children: ReactNode;
-  Icon: IconType;
-  className?: string;
-}) => (
-  <div className={`relative ${className}`}>
-    {children}
-    <Icon className="pointer-events-none absolute right-5 top-4.5 size-5 text-muted-foreground" />
-  </div>
-);
 
 const ContactForm = () => {
   const { showAlert } = useAlert();
@@ -75,45 +55,46 @@ const ContactForm = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        <Field Icon={User}>
-          <Input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            aria-label="Your name"
-            className={`${INPUT_STYLE} h-14 pr-12`}
-          />
-        </Field>
-        <Field Icon={Mail}>
-          <Input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            aria-label="Email address"
-            className={`${INPUT_STYLE} h-14 pr-12`}
-          />
-        </Field>
+        <InputWithIcon
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          aria-label="Your name"
+          icon={User}
+          iconPosition="end"
+          className="h-14 rounded-2xl bg-secondary/50 focus-visible:bg-white"
+        />
+
+        <InputWithIcon
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          aria-label="Email address"
+          icon={Mail}
+          iconPosition="end"
+          className="h-14 rounded-2xl bg-secondary/50 focus-visible:bg-white"
+        />
       </div>
 
-      <Field Icon={Tag}>
-        <Input
-          type="text"
-          name="subject"
-          placeholder="Subject"
-          aria-label="Subject"
-          className={`${INPUT_STYLE} h-14 pr-12`}
-        />
-      </Field>
+      <InputWithIcon
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        aria-label="Subject"
+        icon={Tag}
+        iconPosition="end"
+        className="h-14 rounded-2xl bg-secondary/50 focus-visible:bg-white"
+      />
 
-      <Field Icon={PenLine}>
-        <Textarea
-          name="message"
-          rows={5}
-          placeholder="Your Message"
-          aria-label="Your message"
-          className={`${INPUT_STYLE} min-h-32 resize-none py-4 pr-12`}
-        />
-      </Field>
+      <TextareaWithIcon
+        name="message"
+        rows={5}
+        placeholder="Your Message"
+        aria-label="Your message"
+        icon={PenLine}
+        iconPosition="end"
+        className="min-h-32 resize-none rounded-2xl bg-secondary/50 focus-visible:bg-white"
+      />
 
       <Button
         type="submit"
