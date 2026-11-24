@@ -11,9 +11,10 @@ export const PRIVACY: LegalContent = {
   meta: "Last Updated: September 28, 2026 • Effective Date: March 1, 2026",
   intro: (
     <>
-      At <B>CozyLoops</B> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), we take your
-      personal data privacy seriously. This Privacy Policy outlines how your personal information is
-      collected, used, shared, and safeguarded when you visit or make a purchase from our artisan
+      At <B>CozyLoops</B> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or
+      &ldquo;us&rdquo;), we take your personal data privacy seriously. This
+      Privacy Policy outlines how your personal information is collected, used,
+      shared, and safeguarded when you visit or make a purchase from our artisan
       eCommerce store.
     </>
   ),
@@ -29,10 +30,22 @@ export const PRIVACY: LegalContent = {
         {
           type: "list",
           items: [
-            <><B>Customer Identity Data:</B> Your name, billing address, shipping delivery address, email address, and phone number.</>,
-            <><B>Transactional Data:</B> Items purchased, order value, payment status, and order fulfillment history.</>,
-            <><B>Device &amp; Technical Data:</B> Your IP address, browser type, operating system, and pages viewed to optimize browsing speed.</>,
-            <><B>Customization Notes:</B> Any initials, monogram letters, or gift messages you submit for personalized orders.</>,
+            <>
+              <B>Customer Identity Data:</B> Your name, billing address,
+              shipping delivery address, email address, and phone number.
+            </>,
+            <>
+              <B>Transactional Data:</B> Items purchased, order value, payment
+              status, and order fulfillment history.
+            </>,
+            <>
+              <B>Device &amp; Technical Data:</B> Your IP address, browser type,
+              operating system, and pages viewed to optimize browsing speed.
+            </>,
+            <>
+              <B>Customization Notes:</B> Any initials, monogram letters, or
+              gift messages you submit for personalized orders.
+            </>,
           ],
         },
       ],
@@ -41,7 +54,10 @@ export const PRIVACY: LegalContent = {
       title: "How We Use Your Information",
       Icon: Lock,
       blocks: [
-        { type: "p", text: "We process your personal information for specific legitimate purposes:" },
+        {
+          type: "p",
+          text: "We process your personal information for specific legitimate purposes:",
+        },
         {
           type: "list",
           items: [
@@ -72,13 +88,15 @@ export const PRIVACY: LegalContent = {
           type: "p",
           text: (
             <>
-              CozyLoops utilizes modern client-side storage technologies, such as browser{" "}
+              CozyLoops utilizes modern client-side storage technologies, such
+              as browser{" "}
               <code className="rounded bg-secondary px-1.5 py-0.5 font-mono text-[0.9em]">
                 localStorage
               </code>
-              , to retain your Shopping Cart items, Wishlist favorites, and session authentication
-              state across visits. You may clear your browser cookies and storage at any time
-              through your browser settings.
+              , to retain your Shopping Cart items, Wishlist favorites, and
+              session authentication state across visits. You may clear your
+              browser cookies and storage at any time through your browser
+              settings.
             </>
           ),
         },
@@ -96,7 +114,7 @@ export const PRIVACY: LegalContent = {
           type: "contact",
           rows: [
             { label: "Email", value: "privacy@cozyloops.com" },
-            { label: "Artisan Studio", value: "CozyLoops Crafts, Mumbai, Maharashtra, India" },
+            { label: "Artisan Studio", value: "CozyLoops Crafts, Cairo,Egypt" },
           ],
         },
       ],
