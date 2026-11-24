@@ -1,9 +1,7 @@
-import React from 'react'
+import HelpSection from "@/modules/Client/Help/Template/HelpSection";
 
 const page = () => {
-  return (
-    <div>page</div>
-  )
-}
+  return <HelpSection />
+};
 
-export default page
+export default page;

@@ -52,6 +52,7 @@ import {
   Trash2,
   Phone,
   Globe,
+  MessageCircleMore,
   Languages,
   Pencil,
   Link,
@@ -204,4 +205,5 @@ export {
   Sparkles,
   MessageCircle,
   MapPin,
+  MessageCircleMore,
 };
