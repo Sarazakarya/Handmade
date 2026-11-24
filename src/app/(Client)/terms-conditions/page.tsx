@@ -1,9 +1,10 @@
-import React from 'react'
+import { getSeoMetadata } from "@/core/seo/getSeoMetadata";
+import TermsConditions from "@/modules/Client/Legal/organisms/TermsConditions";
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+export const metadata = getSeoMetadata({
+  title: "Terms & Conditions | CozyLoops",
+});
+
+export default function Page() {
+  return <TermsConditions />;
 }
-
-export default page
