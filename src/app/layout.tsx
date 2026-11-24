@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "CozyLoops",
   description:
     "Handcrafted crochet creations made stitch by stitch to bring warmth, beauty, and heartfelt charm to your everyday life.",
+  icons: {
+    icon: "icon.png",
+  },
 };
 
 export default async function RootLayout({
